@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+.top{
+  padding:25px 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -5px; 
+}
+.parent{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px 20px;
+}
+.card{
+  height: 285px;
+  width: 220px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.center{
+  padding: 0 20px;
+  margin: auto 0;
+}
+
+.top img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: rgb(219, 216, 216) solid 0.5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  object-fit:cover;
+  object-position: center;
+}
+
+.top button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9px;
+  border-radius: 4px;
+  border: 1px solid rgb(224, 224, 224);
+  overflow: hidden;
+  padding: 4px 5px;
+  height: fit-content;
+  color: rgb(218, 212, 212);
+  gap: 5px;
+  height: 20px;
+  background-color: transparent;
+}
+
+.bookmark {
+  font-size: 10px;
+  color: rgb(211, 201, 201);
+  cursor: pointer;
+}
+
+.center{
+  padding: 0 20px;
+  flex-grow: 1;
+}
+
+.center h4 span{
+    margin-left: 2px;
+    font-size: xx-small;
+    font-weight: 100;
+    color: rgb(211, 201, 201);;
+}
+
+.center h3{
+  margin-bottom: 4px;
+  font-size: 18px;
+  line-height: 1.2;
+}
+.line{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid rgb(211, 201, 201);
+  padding: 10px 3px;
+}
+.bottom{
+  padding: 0 10px;
+}
+
+.line button{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+}
+
+.line h3{
+  font-size: medium;
+}
+
+.line p{
+  font-size: x-small;
+  color: rgb(211, 201, 201);
+}
+
+.tags{
+  display: flex;
+  gap: 10px;
+}
+.tag{
+  border: 2px solid rgb(211, 201, 201);;
+  border-radius: 4px ;
+  background-color: rgb(211, 201, 201);;
+  font-size: small;
+  color: rgb(0, 0, 0);
+  font-size: 11px;
+  height: 20px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
