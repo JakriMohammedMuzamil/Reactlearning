@@ -1,0 +1,26 @@
+button{
+  background-color: rgb(177, 197, 197);
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  border-color: transparent;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.box{
+  background-color: rgb(210, 205, 205);
+  height: 400px;
+  width: 400px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+.insidebox{
+  text-align: center;
+}
+h1{
+  text-align: center;
+  font-size: 70px;
+}
