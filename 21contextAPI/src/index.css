@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.nav{
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nav2{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 10px;
+}
